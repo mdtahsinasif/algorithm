@@ -4,7 +4,7 @@ from sklearn import tree
 import pydot
 import io
 
-path = 'C:\\Users\\Algorithmica\\Downloads'
+path = 'C:\\Users\\Asif\\Downloads'
 titanic_train = pd.read_csv(os.path.join(path, 'titanic_train.csv'))
 print(titanic_train.shape)
 print(titanic_train.info())
